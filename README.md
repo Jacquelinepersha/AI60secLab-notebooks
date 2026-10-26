@@ -1,21 +1,70 @@
 # AI60secLab Notebooks
 
-Hands-on notebooks that match the AI60secLab YouTube videos. Each one runs in Google Colab with nothing to install.
+Hands-on notebooks that match the AI60secLab YouTube videos, plus the full AI Cybersecurity MasterClass labs. Every notebook runs in Google Colab with nothing to install.
 
 Watch the videos on [YouTube](https://www.youtube.com/@AI60secLab). Browse every lesson at [ai60seclab.com](https://ai60seclab.com).
 
 ## Practice notebooks
 
-| Notebook | Video | Open in Colab |
+The notebooks from the ai60seclab.com Notebooks section.
+
+| Notebook | What it covers | Video | Open in Colab |
+|---|---|---|---|
+| [Pandas: Read Any Dataset in 3 Lines](https://github.com/Jacquelinepersha/ai60seclab-notebooks/blob/main/pandas-read-any-dataset.ipynb) | Load a dataset, look at it, describe it. The three lines from the video, ready to run. | [Watch](https://www.youtube.com/watch?v=9iFAsbPE3So) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai60seclab-notebooks/blob/main/pandas-read-any-dataset.ipynb) |
+| [Python Libraries, Packages, and pip](https://github.com/Jacquelinepersha/ai60seclab-notebooks/blob/main/python-libraries-packages-pip.ipynb) | Install, import, build. What pip actually does, with safe examples to try. | [Watch](https://www.youtube.com/watch?v=CVjmkmQrnc8) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai60seclab-notebooks/blob/main/python-libraries-packages-pip.ipynb) |
+| [SQL for AI Builders](https://github.com/Jacquelinepersha/ai60seclab-notebooks/blob/main/sql-for-ai-builders.ipynb) | A tiny database you query yourself. SELECT, WHERE, and GROUP BY from the video. | [Watch](https://www.youtube.com/watch?v=Pt0qBOkQNH4) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai60seclab-notebooks/blob/main/sql-for-ai-builders.ipynb) |
+| [RAG in 60 Seconds](https://github.com/Jacquelinepersha/ai60seclab-notebooks/blob/main/rag-in-60-seconds.ipynb) | Retrieve first, answer second. The retrieval half of RAG, working end to end. | [Watch](https://www.youtube.com/watch?v=E9vvmCZp38U) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai60seclab-notebooks/blob/main/rag-in-60-seconds.ipynb) |
+
+## AI Cybersecurity MasterClass labs
+
+23 hands-on labs that apply machine learning to network threat detection, using the UNSW-NB15 dataset. They live in the separate repo [AI Cybersecurity Masterclass: Public Labs](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs). The labs cover the machine learning core of the MasterClass; they do not cover every MasterClass lesson.
+
+### Foundations
+
+| Lab | Open in Colab | GitHub |
 |---|---|---|
-| pandas-read-any-dataset.ipynb | [Pandas: Read Any Dataset in 3 Lines of Python](https://www.youtube.com/watch?v=9iFAsbPE3So) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai60seclab-notebooks/blob/main/pandas-read-any-dataset.ipynb) |
-| python-libraries-packages-pip.ipynb | [What Are Python Libraries, Packages, and pip?](https://www.youtube.com/watch?v=CVjmkmQrnc8) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai60seclab-notebooks/blob/main/python-libraries-packages-pip.ipynb) |
-| sql-for-ai-builders.ipynb | [SQL: The One Language Every AI Builder Needs](https://www.youtube.com/watch?v=Pt0qBOkQNH4) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai60seclab-notebooks/blob/main/sql-for-ai-builders.ipynb) |
-| rag-in-60-seconds.ipynb | [RAG in 60 Seconds: Give Your LLM a Memory](https://www.youtube.com/watch?v=E9vvmCZp38U) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai60seclab-notebooks/blob/main/rag-in-60-seconds.ipynb) |
+| [How the labs fit together](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/00_how_these_labs_fit_together.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/00_how_these_labs_fit_together.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/00_how_these_labs_fit_together.ipynb) |
+| [Security Data Exploration](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/01_security_data_exploration.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/01_security_data_exploration.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/01_security_data_exploration.ipynb) |
+| [Binary Threat Detection](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/02_binary_threat_detection.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/02_binary_threat_detection.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/02_binary_threat_detection.ipynb) |
+| [Multiclass Attack Classification](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/03_multiclass_attack_classification.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/03_multiclass_attack_classification.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/03_multiclass_attack_classification.ipynb) |
+| [Feature Engineering for Cybersecurity](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/04_feature_engineering.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/04_feature_engineering.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/04_feature_engineering.ipynb) |
+| [Model Comparison for Cyber Threat Detection](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/05_model_comparison.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/05_model_comparison.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/05_model_comparison.ipynb) |
+
+### Evaluation that holds up
+
+| Lab | Open in Colab | GitHub |
+|---|---|---|
+| [Confusion Matrices and Error Analysis](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/06_confusion_matrices_error_analysis.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/06_confusion_matrices_error_analysis.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/06_confusion_matrices_error_analysis.ipynb) |
+| [Data Leakage and Validation Design](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/07_data_leakage_validation_design.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/07_data_leakage_validation_design.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/07_data_leakage_validation_design.ipynb) |
+| [Class Imbalance and Cost-Sensitive Learning](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/08_class_imbalance_cost_sensitive_learning.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/08_class_imbalance_cost_sensitive_learning.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/08_class_imbalance_cost_sensitive_learning.ipynb) |
+| [Decision Threshold Optimization Without Test Leakage](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/09_threshold_optimization_without_test_leakage.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/09_threshold_optimization_without_test_leakage.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/09_threshold_optimization_without_test_leakage.ipynb) |
+| [Explainable Cyber ML with Permutation Importance](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/10_explainable_cyber_ml_permutation_importance.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/10_explainable_cyber_ml_permutation_importance.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/10_explainable_cyber_ml_permutation_importance.ipynb) |
+| [False-Negative Forensics and Error Slicing](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/11_false_negative_forensics_error_slicing.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/11_false_negative_forensics_error_slicing.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/11_false_negative_forensics_error_slicing.ipynb) |
+
+### Robustness and adversarial ML
+
+| Lab | Open in Colab | GitHub |
+|---|---|---|
+| [Controlled Evasion-Style Robustness Testing](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/12_controlled_evasion_style_robustness.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/12_controlled_evasion_style_robustness.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/12_controlled_evasion_style_robustness.ipynb) |
+| [Directional Feature Stress and Model Sensitivity](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/13_directional_feature_stress_model_sensitivity.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/13_directional_feature_stress_model_sensitivity.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/13_directional_feature_stress_model_sensitivity.ipynb) |
+| [Data Poisoning Robustness](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/14_data_poisoning_robustness.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/14_data_poisoning_robustness.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/14_data_poisoning_robustness.ipynb) |
+| [Controlled Concept Drift and Adaptation](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/15_controlled_concept_drift_adaptation.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/15_controlled_concept_drift_adaptation.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/15_controlled_concept_drift_adaptation.ipynb) |
+| [Distribution Shift and Generalization](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/16_distribution_shift_generalization.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/16_distribution_shift_generalization.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/16_distribution_shift_generalization.ipynb) |
+| [Robustness Mitigation Comparison](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/17_robustness_mitigation_comparison.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/17_robustness_mitigation_comparison.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/17_robustness_mitigation_comparison.ipynb) |
+
+### Threat intelligence and capstone
+
+| Lab | Open in Colab | GitHub |
+|---|---|---|
+| [MITRE ATT&CK Threat Mapping with Python](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/18_mitre_attack_threat_mapping_python.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/18_mitre_attack_threat_mapping_python.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/18_mitre_attack_threat_mapping_python.ipynb) |
+| [MITRE ATLAS and AI Threat Modeling](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/19_mitre_atlas_ai_threat_modeling.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/19_mitre_atlas_ai_threat_modeling.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/19_mitre_atlas_ai_threat_modeling.ipynb) |
+| [Cyber Threat Intelligence Analytics](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/20_cyber_threat_intelligence_analytics.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/20_cyber_threat_intelligence_analytics.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/20_cyber_threat_intelligence_analytics.ipynb) |
+| [RAG for Cyber Threat Intelligence and Retrieval Poisoning](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/21_rag_cti_retrieval_poisoning.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/21_rag_cti_retrieval_poisoning.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/21_rag_cti_retrieval_poisoning.ipynb) |
+| [Final Research Capstone](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/22_final_ai_cybersecurity_research_capstone.ipynb) | [Open in Colab](https://colab.research.google.com/github/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/22_final_ai_cybersecurity_research_capstone.ipynb) | [View](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs/blob/main/notebooks/22_final_ai_cybersecurity_research_capstone.ipynb) |
 
 ## Full lesson catalog
 
-Public lessons by subject. A notebook link appears where a practice notebook exists for that lesson.
+Public lessons by subject, with video links. A notebook link appears where a practice notebook exists for that lesson.
 
 ### 001. AI Fundamentals & Everyday Realities
 
@@ -199,7 +248,7 @@ Public lessons by subject. A notebook link appears where a practice notebook exi
 - [What Is a Multi Agent System?](https://www.youtube.com/watch?v=9wPJErmabNk)
 - [What Are Evals for AI Agents?](https://www.youtube.com/watch?v=AN7DLY2fOx4)
 
-Hands-on labs for the MasterClass core live in a separate repo: [AI Cybersecurity Masterclass: Public Labs](https://github.com/Jacquelinepersha/ai-cybersecurity-public-labs). The labs cover the machine learning core of the MasterClass (threat detection, evaluation, robustness, MITRE, threat intel, capstone); they do not cover every MasterClass lesson.
+Hands-on labs for the MasterClass core are listed above under AI Cybersecurity MasterClass labs.
 
 ### 013. AI Cybersecurity MasterClass
 
